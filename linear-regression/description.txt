@@ -1,0 +1,41 @@
+http://people.sc.fsu.edu/~jburkardt/datasets/regression/x20.txt
+
+Reference:
+
+Helmut Spaeth,
+Mathematical Algorithms for Linear Regression,
+Academic Press, 1991,
+ISBN 0-12-656460-4.
+
+K Brownlee,
+Statistical Theory and Methodology,
+Wiley, 1965, pages 464-465.
+
+Discussion:
+
+In various states, population and drinking data was recorded.
+
+There are 46 rows of data.The data includes:
+
+I,the index;
+A0, 1;
+A1, the size of the urban population,
+A2, the number of births to women between 45 to 49
+(actually, the reciprocal of that value, times 100)
+A3, the consumption of wine per capita,
+A4, the consumption of hard liquor per capita,
+B,the death rate from cirrhosis.
+
+We seek a model of the form:
+
+B = A0 * X0 + A1 * X1 + A2 * X2 + A3 * X3 + A4 * X4.
+
+7 columns
+46 rows
+Index
+One
+Urban population (percentage)
+Late births (reciprocal * 100)
+Wine consumption per capita
+Liquor consumption per capita
+Cirrhosis death rate
